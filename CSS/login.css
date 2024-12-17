@@ -1,0 +1,227 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: bisque;
+ @media only screen and (max-width: 480px) {
+  background-color: darkred;
+ }
+}
+
+
+.bg {
+ padding-bottom: 10px; 
+}
+
+.title {
+ font-family: "Bebas Neue", sans-serif;
+ display: flex;
+ justify-content: end;
+ margin-top: -120px;
+ font-size: 100px;
+ margin-right: 100px;
+ margin-bottom: -10px;
+ color: darkred;
+ margin-left: 530px;
+
+ @media only screen and (max-width: 480px){
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: end;
+  margin-top: -120px;
+  font-size: 70px;
+  margin-right: 50px;
+  margin-bottom: -10px;
+  color: white;
+  margin-left: 600px;
+ }
+}
+
+.title:hover {
+ -webkit-text-stroke: 2px;
+ -webkit-text-stroke-color: darkred;
+ color: white;
+ font-style: italic;
+}
+
+.cakelogo {
+ width: 150px;
+ height: 150px;
+ display: flex;
+ margin-left: 50px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+ }
+}
+
+.nav {
+ display: flex;
+ background-color: darkred;
+ padding: 25px;
+ justify-content: end;
+ @media only screen and (max-width: 480px) {
+ background-color: white;
+ width: 712px;
+ flex-direction: row;
+ justify-content: center;
+ }
+}
+
+.nav ul {
+ @media only screen and (max-width: 480px) {
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+}
+
+.nav ul a{
+ color: white;
+ font-family: arial;
+ font-weight: bold;
+ text-decoration: none;
+ padding-left: 10px;
+ padding-right: 10px;
+ @media only screen and (max-width: 480px) {
+  color: darkred;
+  display: flex;
+  flex-direction: row;
+  font-size: 20pt;
+  text-align: center;
+ }
+}
+
+.box {
+ background-color: white;
+ width: 50%;
+ height: 500px;
+ margin-left: 400px;
+ margin-top: 100px;
+ display: flex;
+ justify-content: center;
+ color: red;
+ border-top-left-radius: 50px;
+ border-bottom-right-radius: 50px;
+ @media only screen and (max-width: 480px){
+  width: 700px;
+  margin-right: 50px;
+  margin-left: 30px;
+ }
+}
+
+.wel {
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 50px;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.email {
+list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: rgb(85, 85, 85);
+border-color: grey;
+border: 2px solid;
+padding: 10px;
+width: 500px;
+}
+
+.Password {
+ margin-top: 10px;
+ list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: rgb(85, 85, 85);
+border-color: grey;
+border: 2px solid;
+padding: 10px;
+}
+
+.Log{
+ margin-top: 20px;
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ border-color: red;
+ border: 2px solid;
+ background-color: darkred;
+ padding: 10px;
+ border-radius: 50px;
+ text-align: center;
+}
+
+.reg{
+ list-style: none;
+ margin-top: 50px;
+ margin-left: 150px;
+}
+
+footer {
+ display: block;
+ background-color: black;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 100px;
+}
+
+.creator {
+ justify-self: center;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+}
+
+.locate {
+ justify-self: flex-end;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+ margin-right: 20px;
+}
+
+.tel {
+ justify-self: flex-end;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+ margin-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+ footer {
+  display: block;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 300px;
+  width: 760px;
+ }
+ 
+ .creator {
+  justify-self: center;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 15px;
+ }
+ 
+ .locate {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 15px;
+  margin-right: 20px;
+ }
+ 
+ .tel {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 15px;
+  margin-right: 20px;
+ }
+}

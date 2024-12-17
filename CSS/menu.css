@@ -1,0 +1,64 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: bisque;
+}
+
+
+.bg {
+ padding-bottom: 10px; 
+}
+
+.title {
+ font-family: "Bebas Neue", sans-serif;
+ display: flex;
+ justify-content: end;
+ margin-top: -120px;
+ font-size: 100px;
+ margin-right: 100px;
+ margin-bottom: -10px;
+ color: darkred;
+ margin-left: 530px;
+}
+
+.title:hover {
+ -webkit-text-stroke: 2px;
+ -webkit-text-stroke-color: darkred;
+ color: white;
+ font-style: italic;
+}
+
+.cakelogo {
+ width: 150px;
+ height: 150px;
+ display: flex;
+ margin-left: 50px;
+ @media only screen and (max-width: 480px) {
+
+ }
+}
+
+.nav {
+ display: flex;
+ background-color: darkred;
+ justify-content: end;
+ padding: 25px;
+ @media only screen and (max-width: 480px) {
+ background-color: white;
+ }
+}
+
+.nav ul a{
+ color: white;
+ font-family: arial;
+ font-weight: bold;
+ text-decoration: none;
+ padding-left: 10px;
+ padding-right: 10px;
+ @media only screen and (max-width: 480px) {
+  color: darkred;
+  display: flex;
+  flex-direction: row;
+  font-size: 20pt;
+ }
+}

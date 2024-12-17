@@ -1,0 +1,324 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-color: bisque;
+ @media only screen and (max-width: 480px) {
+  background-color: darkred;
+ }
+}
+
+.bg {
+ padding-bottom: 10px; 
+}
+
+.title {
+ font-family: "Bebas Neue", sans-serif;
+ display: flex;
+ justify-content: end;
+ margin-top: -120px;
+ font-size: 100px;
+ margin-right: 100px;
+ margin-bottom: -10px;
+ color: darkred;
+ margin-left: 530px;
+}
+
+.title:hover {
+ -webkit-text-stroke: 2px;
+ -webkit-text-stroke-color: darkred;
+ color: white;
+ font-style: italic;
+}
+
+.cakelogo {
+ width: 150px;
+ height: 150px;
+ display: flex;
+ margin-left: 50px;
+ @media only screen and (max-width: 480px) {
+
+ }
+}
+
+.nav {
+ display: flex;
+ background-color: darkred;
+ justify-content: end;
+ padding: 25px;
+ @media only screen and (max-width: 480px) {
+ background-color: white;
+ }
+}
+
+.nav ul a{
+ color: white;
+ font-family: arial;
+ font-weight: bold;
+ text-decoration: none;
+ padding-left: 10px;
+ padding-right: 10px;
+ @media only screen and (max-width: 480px) {
+  color: darkred;
+  display: flex;
+  flex-direction: row;
+  font-size: 20pt;
+ }
+}
+
+.bg1 {
+ background-image: url(../image/background.jpg);
+ background-size: cover;
+ width: 100%;
+ padding-bottom: 300px;
+ @media only screen and (max-width: 480px) {
+  width: 100%;
+  padding-bottom: 100px;
+  
+ }
+}
+
+.wel {
+ list-style: none;
+ font-family: arial;
+ font-size: 60px;
+ font-style: italic;
+ color: darkred;
+ font-weight: bold;
+ padding-top: 200px;
+ margin-left: 20px;
+}
+
+.wel:hover {
+ font-style: normal;
+}
+
+.fav {
+ font-size: 30px;
+ font-family: arial;
+ list-style: none;
+ font-weight: bold;
+ margin-left: 50px;
+ font-style: italic;
+ color: white;
+ -webkit-text-stroke: 1px;
+ -webkit-text-stroke-color: darkred ;
+}
+
+.fav:hover {
+ color: darkred;
+}
+
+.wel1 {
+ list-style: none;
+ font-family: arial;
+ font-size: 30px;
+ display: flex;
+ margin-left: 30px;
+ margin-right: 670px;
+ font-style: italic;
+}
+
+.fet {
+ color: white;
+ display: flex;
+ font-size: 70px;
+ font-family: "Bebas Neue", sans-serif;
+ background-color: darkred;
+ border: 1px red solid;
+ justify-self: center;
+ text-align: center;
+ width: 200px;
+ padding-left: 15px;
+ border-top-left-radius: 40px;
+ border-bottom-right-radius: 40px;
+}
+
+.box {
+ background-color: darkred;
+ background-image: linear-gradient(darkred, red, darkred);
+ padding-top: 50px;
+ margin: 10px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: column;
+ border-top-left-radius: 100px 40px;
+ border-bottom-right-radius: 100px 40px;
+ padding-bottom: 30px;
+}
+
+.tubcake {
+ width: 250px;
+ margin-top: 20px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+ margin-left: 250px;
+}
+
+.triocake {
+ width: 250px;
+ justify-self: center;
+ align-self: center;
+ margin-top: -348px;
+}
+
+.jumbocake {
+ width: 250px;
+ height: 250px;
+ margin-right: 250px;
+ margin-top: -348.5px;
+ margin-bottom: 70px;
+ margin-left: 20px;
+ justify-self: flex-end;
+ align-self: flex-end;
+}
+
+.wedcake {
+ width: 250px;
+ height: 250px;
+ margin-right: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 250px;
+}
+
+.bdaycake {
+ width: 250px;
+ height: 250px;
+ justify-self: center;
+ align-self: center;
+ margin-top: -349px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+
+}
+
+.yema {
+ width: 250px;
+ height: 250px;
+ justify-self: flex-end;
+ align-self: flex-end;
+ margin-top: -348px;
+ margin-right: 250px;
+ margin-bottom: 70px;
+}
+
+.info1 {
+ background-color: red;
+ width: 70px;
+ margin-left: 325px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+ justify-self: center;
+ padding: 10px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+.info2 {
+ background-color: red;
+ width: 70px;
+ margin-top: 40px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+ justify-self: center;
+ align-self: center;
+ text-align: center;
+ padding: 10px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+.info3 {
+ background-color: red;
+ text-decoration: none;
+ width: 70px;
+ margin-top: -30px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+ margin-right: 325px;
+ justify-self: flex-end;
+ align-self: flex-end;
+ padding: 10px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+.info4 {
+ background-color: red;
+ width: 70px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 325px;
+ margin-right: 20px;
+ justify-self: flex-start;
+ padding: 10px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+.info5 {
+ background-color: red;
+ width: 70px;
+ justify-self: center;
+ align-self: center;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ padding: 10px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+.info6{
+ background-color: red;
+ width: 70px;
+ padding: 10px;
+ justify-self: flex-end;
+ align-self: flex-end;
+ margin-right: 325px;
+ margin-top: -25px;
+ border-radius: 10px;
+ outline: 1px darkred solid;
+ text-decoration: none;
+}
+
+
+footer {
+ display: block;
+ background-color: black;
+ color: white;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+.creator {
+ justify-self: center;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+}
+
+.locate {
+ justify-self: flex-end;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+ margin-right: 20px;
+}
+
+.tel {
+ justify-self: flex-end;
+ font-weight: lighter;
+ font-family: arial;
+ font-size: 12px;
+ margin-right: 20px;
+}
