@@ -21,6 +21,17 @@ body {
  margin-bottom: -10px;
  color: darkred;
  margin-left: 530px;
+ @media only screen and (max-width: 480px){
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: end;
+  margin-top: -120px;
+  font-size: 50px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  color: white;
+  margin-left: 10px;
+ }
 }
 
 .title:hover {
@@ -36,7 +47,12 @@ body {
  display: flex;
  margin-left: 50px;
  @media only screen and (max-width: 480px) {
-
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 5px;
  }
 }
 
@@ -46,7 +62,18 @@ body {
  justify-content: end;
  padding: 25px;
  @media only screen and (max-width: 480px) {
- background-color: white;
+  background-color: white;
+  width: 85%;
+  flex-direction: row;
+  justify-content: center;
+  }
+}
+
+.nav ul {
+ @media only screen and (max-width: 480px) {
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
  }
 }
 
@@ -72,7 +99,6 @@ body {
  padding-bottom: 300px;
  @media only screen and (max-width: 480px) {
   width: 100%;
-  padding-bottom: 100px;
   
  }
 }
@@ -86,6 +112,10 @@ body {
  font-weight: bold;
  padding-top: 200px;
  margin-left: 20px;
+ @media only screen and (max-width: 480px) {
+  font-size: 30px;
+  padding-top: 50px;
+ }
 }
 
 .wel:hover {
@@ -102,6 +132,9 @@ body {
  color: white;
  -webkit-text-stroke: 1px;
  -webkit-text-stroke-color: darkred ;
+ @media only screen and (max-width: 480px) {
+  font-size: 20px;
+ }
 }
 
 .fav:hover {
@@ -116,6 +149,11 @@ body {
  margin-left: 30px;
  margin-right: 670px;
  font-style: italic;
+ @media only screen and (max-width: 480px) {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 20px;
+ }
 }
 
 .fet {
@@ -131,6 +169,13 @@ body {
  padding-left: 15px;
  border-top-left-radius: 40px;
  border-bottom-right-radius: 40px;
+ @media only screen and (max-width: 480px) {
+  font-size: 40px;
+  justify-self: center;
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+ }
 }
 
 .box {
@@ -144,6 +189,12 @@ body {
  border-top-left-radius: 100px 40px;
  border-bottom-right-radius: 100px 40px;
  padding-bottom: 30px;
+ @media only screen and (max-width: 480px) {
+  width: 100%;
+  flex-direction: column;
+  margin: 10px;
+ }
+ 
 }
 
 .tubcake {
@@ -152,6 +203,13 @@ body {
  margin-right: 20px;
  margin-bottom: 20px;
  margin-left: 250px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .triocake {
@@ -159,6 +217,13 @@ body {
  justify-self: center;
  align-self: center;
  margin-top: -348px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .jumbocake {
@@ -170,6 +235,13 @@ body {
  margin-left: 20px;
  justify-self: flex-end;
  align-self: flex-end;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .wedcake {
@@ -179,6 +251,13 @@ body {
  margin-top: 20px;
  margin-bottom: 20px;
  margin-left: 250px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .bdaycake {
@@ -190,6 +269,13 @@ body {
  margin-bottom: 20px;
  margin-right: 20px;
  margin-left: 20px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 
 }
 
@@ -201,6 +287,13 @@ body {
  margin-top: -348px;
  margin-right: 250px;
  margin-bottom: 70px;
+ @media only screen and (max-width: 480px) {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info1 {
@@ -215,6 +308,11 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info2 {
@@ -231,6 +329,11 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info3 {
@@ -247,6 +350,11 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info4 {
@@ -261,6 +369,11 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info5 {
@@ -276,6 +389,11 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
 
 .info6{
@@ -289,36 +407,78 @@ body {
  border-radius: 10px;
  outline: 1px darkred solid;
  text-decoration: none;
+ @media only screen and (max-width: 480px) {
+  margin: 0;
+  margin-top: 10px;
+  align-self: center;
+ }
 }
-
-
 footer {
- display: block;
- background-color: black;
- color: white;
- padding-top: 20px;
- padding-bottom: 20px;
+  display: block;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+ 
+ .creator {
+  justify-self: center;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 12px;
+ }
+ 
+ .locate {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 20px;
+ }
+ 
+ .tel {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 12px;
+  margin-right: 20px;
+ }
+
+@media only screen and (max-width: 480px) {
+  footer {
+    display: block;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 300px;
+    width: 100%;
+    padding-right: 20px;
+   
+   }
+   
+   .creator {
+    justify-self: center;
+    font-weight: lighter;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 20px;
+   }
+   
+   .locate {
+    justify-self: flex-end;
+    font-weight: lighter;
+    font-family: arial;
+    font-size: 7px;
+    margin-right: 10px;
+   }
+   
+   .tel {
+    justify-self: flex-end;
+    font-weight: lighter;
+    font-family: arial;
+    font-size: 7px;
+    margin-right: 10px;
+   }
 }
 
-.creator {
- justify-self: center;
- font-weight: lighter;
- font-family: arial;
- font-size: 12px;
-}
-
-.locate {
- justify-self: flex-end;
- font-weight: lighter;
- font-family: arial;
- font-size: 12px;
- margin-right: 20px;
-}
-
-.tel {
- justify-self: flex-end;
- font-weight: lighter;
- font-family: arial;
- font-size: 12px;
- margin-right: 20px;
-}

@@ -2,6 +2,9 @@ body {
  margin: 0;
  padding: 0;
  background-color: bisque;
+ @media only screen and (max-width: 480px) {
+  background-color: darkred;
+ }
 }
 
 
@@ -15,10 +18,22 @@ body {
  justify-content: end;
  margin-top: -120px;
  font-size: 100px;
- margin-right: 100px;
+ margin-right: 70px;
  margin-bottom: -10px;
  color: darkred;
  margin-left: 530px;
+
+ @media only screen and (max-width: 480px){
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: end;
+  margin-top: -120px;
+  margin-right: 10px;
+  font-size: 50px;
+  margin-bottom: -10px;
+  color: white;
+  margin-left: 10px;
+ }
 }
 
 .title:hover {
@@ -34,17 +49,32 @@ body {
  display: flex;
  margin-left: 50px;
  @media only screen and (max-width: 480px) {
-
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 5px;
  }
 }
 
 .nav {
  display: flex;
  background-color: darkred;
- justify-content: end;
  padding: 25px;
+ justify-content: end;
  @media only screen and (max-width: 480px) {
  background-color: white;
+ width: 85%;
+ justify-content: center;
+ }
+}
+
+.nav ul {
+ @media only screen and (max-width: 480px) {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: column;
  }
 }
 
@@ -58,17 +88,18 @@ body {
  @media only screen and (max-width: 480px) {
   color: darkred;
   display: flex;
-  flex-direction: row;
   font-size: 20pt;
+  flex-direction: column;
+  text-align: center;
  }
 }
-
 .bg1 {
  background-color: red;
  padding: 20px;
  display: flex;
  justify-content: space-evenly;
- flex-direction: row;
+ flex-direction: column;
+ margin: 0;
 }
 
 ul {
@@ -77,28 +108,43 @@ ul {
  margin: 20px;
 }
 .box1 {
- background-color: white;
+
  margin-top: 20px;
  margin-bottom: 20px;
  margin-right: 20px;
  margin-left: -50px;
  display: flex;
- border: 8px white solid;
+ flex-direction: column;
+ @media only screen and (max-width: 480px) {
+  width: 150px;
+  margin-bottom: 400px;
+ }
+ 
 }
 
 .camp {
- width: 300px;
+ width: 300px; 
+ border: 8px white solid;
+ @media only screen and (max-width: 480px) {
+  width: 150px;
+  border: 8px white solid;
+  margin-bottom: 20px;
+  
+ }
 }
 
 .bis{
  width: 300px;
-}
-
-.box2 {
- background-color: white;
- display: flex;
- margin: 20px;
+ margin-top: 20px;
  border: 8px white solid;
+ @media only screen and (max-width: 480px) {
+  width: 150px;
+  align-self: flex-end;
+  border: 8px white solid;
+  margin-left: 50px;
+  margin-right: -15px;
+  padding-bottom: -200px;
+ }
 }
 
 .cret {
@@ -109,6 +155,12 @@ ul {
  padding-right: 100px;
  margin-left: -100px;
  margin-top: 200px;
+ @media only screen and (max-width: 480px) {
+  margin-top: 0;
+  text-align: justify;
+  font-size: 13px;
+  margin-left: -70px;
+ }
 }
 
 footer {
@@ -140,4 +192,42 @@ footer {
  font-family: arial;
  font-size: 12px;
  margin-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+ footer {
+  display: block;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: -100px;
+  width: 100%;
+  padding-right: 20px;
+ 
+ }
+ 
+ .creator {
+  justify-self: center;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 15px;
+  margin-left: 20px;
+ }
+ 
+ .locate {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 7px;
+  margin-right: 10px;
+ }
+ 
+ .tel {
+  justify-self: flex-end;
+  font-weight: lighter;
+  font-family: arial;
+  font-size: 7px;
+  margin-right: 10px;
+ }
 }
